@@ -4,7 +4,7 @@ let product = [
         name: "Wireless Headphones",
         category: "Electronics",
         price: 1999,
-        image: "image/headphone.WEBP"
+        image: "/image/headphone.WEBP"
     },
 
     {
@@ -12,7 +12,7 @@ let product = [
         name: "Smart Watch",
         category: "Electronics",
         price: 2499,
-        image: "image/smartwatch.WEBP"
+        image: "/image/smartwatch.WEBP"
     },
 
     {
