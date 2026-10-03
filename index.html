@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <h1>Product Filter App</h1>
+        </div>
+    </header>
+
+    <section>
+        <!-- Search btn -->
+        <div class="search-btn">
+
+            <input type="text" id="search" placeholder="Search Products...">
+        </div>
+
+        <!-- Categories btn -->
+        <div class="all-categories">
+
+            <select name="" id="categories">
+                <option value="All Categories">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Footwear">Footwear</option>
+                <option value="Accessories">Accessories</option>
+            </select>
+        </div>
+
+
+        <!-- Min price -->
+        <div class="min-price">
+            <input type="number" id="minPrice" placeholder="Min price">
+        </div>
+
+
+        <!-- Max-price -->
+        <div class="max-prize">
+            <input type="number" id="maxPrice" placeholder="Max price">
+        </div>
+
+
+        <!-- Clear btn -->
+        <button id="clearBtn">Clear Filters</button>
+    </section>
+
+    <div class="product-container" id="productContainer">
+
+        <!-- JavaScript will display products here -->
+
+    </div>
+
+    <!--	Product	Count	-->
+    <div class="result-info">
+        <h2>Products</h2>
+        <p id="productCount">0 products found</p>
+    </div>
+
+    <div id="noProducts" class="no-products">
+        <h3>No Products Found</h3>
+        <p>Try changing your search or filters.</p>
+    </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
